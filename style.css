@@ -193,9 +193,25 @@ h1 {
     width: 49vw;
     height: 450px; 
     align-content: center;
+    
   
 }
 
 .formulario {
     margin-top: 200px;
+}
+
+
+.footer {
+    background-color: #1F506E;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    padding-top: 50px;
 }
