@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.encabezado h2 {
+    display: inline;
+    font-weight: 400;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.encabezado {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    background-color: #353A40;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 100px;
+
+}
+
+.nav a {
+    color: #9ca3ac;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 15px;
+}
+
+.nav a:visited {
+    color:#9ca3ac ;
+}
+
+
+#seleccionado {
+    color: white;
+}
+
+#tickets {
+    color: #29a746;
+}
+
+.portada {
+    height: 800px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/ba1.jpg);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-align: right;
+    font-size: 2rem;
+   
+}
+
+.hijo-portada {
+    max-width: 500px;
+    padding-right:150px;
+}
+
+.portada p {
+    color: white;
+    text-align: right;
+    font-weight: 300;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+
+}
+
+.boton-portada {
+    text-align: right;
+}
+
+
+
+.padre-tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+#titulo1 {
+    font-weight: 100px;
+}
+
+.tarjeta {
+    border: #9ca3ac solid 0.5px;
+    max-width: 350px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.tarjeta p {
+    padding-top: 15px;
+}
+
+.imagen {
+    margin-bottom: 15px;
+}
+
+.tarjeta a {
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+
+.javascript {
+    background-color: #FEC107;
+    color: black;
+    border-radius: 8px;
+    padding: 4px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.react {
+    background-color: #16a3b6;
+    color: white;
+    border-radius: 8px;
+    padding: 4px;
+    font-weight: 500;
+   
+}
+
+.negocios {
+    background-color: grey;
+    color: white;
+    border-radius: 8px;
+    padding: 4px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+
+.startups {
+    background-color: #DC3445;
+    color: white;
+    border-radius: 8px;
+    padding: 4px;
+    font-weight: 500;
+}
+
+.tarjeta h3 {
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.tarjeta p {
+    line-height: 1.5rem;
+    font-weight: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.info-buenos-aires {
+    display: flex;
+}
+
+.hijo-info {
+    width: 50%vw;
+    height: ; 
+}
+
+.hijo-info-octubre {
+    background-color: #353A40;
+    color: white;
+    padding-left: 20px;
+    padding-top: 50px;
+}
