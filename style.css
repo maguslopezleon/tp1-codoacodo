@@ -175,16 +175,27 @@ h1 {
 
 .info-buenos-aires {
     display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
-.hijo-info {
-    width: 50%vw;
-    height: ; 
+
+.hijo-info-foto img {
+    width: 49vw;
+    height: 450px; 
 }
 
 .hijo-info-octubre {
     background-color: #353A40;
     color: white;
-    padding-left: 20px;
-    padding-top: 50px;
+    width: 49vw;
+    height: 450px; 
+    align-content: center;
+  
+}
+
+.formulario {
+    margin-top: 200px;
 }
